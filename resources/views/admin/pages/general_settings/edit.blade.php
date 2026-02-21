@@ -16,7 +16,7 @@
                     <div class="card mb-4">
                         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                             <h6 class="m-0 font-weight-bold text-primary">{{ __('General Settings')}}</h6>
-                            <a href="{{route('admin.general.settings')}}" class="btn btn-md btn-primary text-right">{{ __('All General Setting')}}</a>
+                            <a href="{{route('admin.general.settings')}}" class="btn btn-md btn-blue text-right">{{ __('All General Setting')}}</a>
                         </div>
                         <div class="card-body">
                             <form enctype="multipart/form-data" method="POST" action="{{route('admin.general.settings.update')}}">
@@ -48,7 +48,7 @@
                                     <input type="file" class="form-control putImage2"  name="favicon" id="favicon">
                                     <img  class="admin_image" src="{{asset(GeneralSettingsImage().$edit->Favicon)}}" id="target2"/>
                                 </div>
-                                <button type="submit" class="btn btn-primary">{{ __('Update General Settings')}}</button>
+                                <button type="submit" class="btn btn-blue">{{ __('Update General Settings')}}</button>
                             </form>
                         </div>
                     </div>

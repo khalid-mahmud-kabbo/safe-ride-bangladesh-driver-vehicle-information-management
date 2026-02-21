@@ -47,7 +47,7 @@
             }
         }
     }
-    
+
 }
 
 .sidebar__close{
@@ -74,11 +74,11 @@
 //sidebar menu style
 .sidebar__menu{
     width: 100%;
-    height: calc(100vh - 86px);
+    height: calc(100vh - 120px);
     overflow-y: auto;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
-    scrollbar-width: none; 
-    &::-webkit-scrollbar { 
+    scrollbar-width: none;
+    &::-webkit-scrollbar {
         display: none;  /* Safari and Chrome */
     }
     display: flex;
@@ -95,7 +95,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 24px;
-        color: #929BAC;
+        color: #fafbfc;
         transition: 0.33s;
         i{
             color: #4B5A78;

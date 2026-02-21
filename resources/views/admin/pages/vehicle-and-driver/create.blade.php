@@ -146,7 +146,7 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-end mt-3">
-                        <button type="button" class="btn btn-primary text-white next-tab">Next</button>
+                        <button type="button" class="btn btn-blue text-white next-tab">Next</button>
                     </div>
                 </div>
 
@@ -194,7 +194,7 @@
                     </div>
                     <div class="d-flex justify-content-between mt-3">
                         <button type="button" class="btn btn-secondary text-white prev-tab">Previous</button>
-                        <button type="button" class="btn btn-primary text-white next-tab">Next</button>
+                        <button type="button" class="btn btn-blue text-white next-tab">Next</button>
                     </div>
                 </div>
 
@@ -256,7 +256,7 @@
 
                     <div class="d-flex justify-content-between mt-3">
                         <button type="button" class="btn btn-secondary text-white prev-tab">Previous</button>
-                        <button type="submit" class="btn btn-success text-white">Submit</button>
+                        <button type="submit" class="btn btn-blue text-white">Submit</button>
                     </div>
                 </div>
                 </div>

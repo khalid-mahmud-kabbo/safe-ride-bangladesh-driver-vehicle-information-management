@@ -18,7 +18,7 @@
         fontSize: '14px',
         fontWeight: 400,
         position: 'top',
-        horizontalAlign: 'left', 
+        horizontalAlign: 'left',
     },
     chart: {
         height: 350,
@@ -36,18 +36,18 @@
             lines: {
                 show: true
             }
-        },   
+        },
         yaxis: {
             lines: {
                 show: false
             }
-        },  
+        },
         padding: {
             top: 0,
             right: 0,
             bottom: 0,
             left: 10
-        },  
+        },
     },
     colors: ['#BE63F9'],
     dataLabels: {
@@ -57,13 +57,13 @@
         curve: 'smooth',
         width: 3,
     },
-    
+
     xaxis: {
         type: 'weak',
         categories: ["Weak 3", "Weak 4", "Weak 5", "Weak 6", "Weak 7", "Weak 8", "Weak 9"],
         labels: {
             style: {
-                colors: ['#596680'],
+                colors: ['#fafbfc'],
                 fontSize: '12px',
                 fontWeight: 400,
             },
@@ -85,7 +85,7 @@
         forceNiceScale: false,
         labels: {
             style: {
-                colors: ['#596680'],
+                colors: ['#fafbfc'],
                 fontSize: '12px',
                 fontWeight: 400,
             },

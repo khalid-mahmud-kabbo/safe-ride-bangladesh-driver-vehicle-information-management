@@ -12,7 +12,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-outline-primary me-2" data-bs-dismiss="modal">{{ __('Cancel')}}</button>
-                <a href="{{route('admin.logout')}}" class="btn btn-primary">{{ __('Logout')}}</a>
+                <a href="{{route('admin.logout')}}" class="btn btn-blue">{{ __('Logout')}}</a>
             </div>
         </div>
     </div>

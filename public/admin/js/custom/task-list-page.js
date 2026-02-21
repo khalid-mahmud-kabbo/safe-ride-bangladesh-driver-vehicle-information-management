@@ -70,7 +70,7 @@ var options = {
         fontFamily: 'Inter, sans-serif',
         fontWeight: 500,
         labels: {
-            colors: ['#596680'],
+            colors: ['#fafbfc'],
         },
         markers: {
             width: 12,

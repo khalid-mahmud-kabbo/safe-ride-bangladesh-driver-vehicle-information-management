@@ -226,7 +226,7 @@ var patientStatisticsOptions = {
                 total: {
                     show: true,
                     label: 'Total Patient',
-                    color: '#596680',
+                    color: '#fafbfc',
                     fontSize: '16px',
                     fontWeight: 400,
                     formatter: function (w) {

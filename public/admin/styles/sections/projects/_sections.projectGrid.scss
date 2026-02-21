@@ -28,14 +28,14 @@
             font-weight: 600;
             font-size: 16px;
             line-height: 24px;
-            color: #273041;
+            color: #fafbfc;
         }
         p{
             margin-bottom: 0;
             font-weight: 500;
             font-size: 12px;
             line-height: 15px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
 }
@@ -69,7 +69,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
     }
     > h2{
         border-top: 1px solid #DCDFE5;
@@ -78,7 +78,7 @@
         font-weight: normal;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
     }
     .date-list{
         margin-top: 13px;
@@ -86,7 +86,7 @@
         align-items: center;
         margin-left: -35px;
         margin-bottom: 14px;
-        
+
         li{
             margin-left: 35px;
         }
@@ -95,13 +95,13 @@
             font-weight: normal;
             font-size: 12px;
             line-height: 20px;
-            color: #596680;
+            color: #fafbfc;
         }
         h2{
             font-weight: 600;
             font-size: 14px;
             line-height: 24px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
 }
@@ -136,17 +136,17 @@
             font-weight: 500;
             font-size: 12px;
             line-height: 15px;
-            color: #596680;
+            color: #fafbfc;
         }
         p{
             margin-bottom: 0;
             font-weight: 500;
             font-size: 12px;
             line-height: 15px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
-    
+
     .task-status{
         margin-top: 12px;
         display: flex;
@@ -157,7 +157,7 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 17px;
-            color: #596680;
+            color: #fafbfc;
             span b{
                 font-weight: 600;
             }
@@ -175,7 +175,7 @@
         background-color: #FF9F38;
         border-radius: 15px;
     }
-    
+
     .progress.bg-yellow{
         background: #EBEDF0;
         border-radius: 15px;
@@ -184,13 +184,13 @@
             border-radius: 15px;
         }
     }
-    
+
     .progress.bg-red{
         .progress-bar{
             background-color: #FF6628;
         }
     }
-    
+
     .progress.bg-green{
         .progress-bar{
             background-color: #4CBF4C;

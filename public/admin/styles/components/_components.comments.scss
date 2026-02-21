@@ -30,7 +30,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-        color: #596680;
+        color: #fafbfc;
     }
     .dropdown-menu{
         background: #FFFFFF;
@@ -51,7 +51,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-        color: #596680;
+        color: #fafbfc;
         span{
             margin-left: 10px;
         }
@@ -74,7 +74,7 @@
 
 .comment__content .comment__list .list-item{
     display: flex;
-    
+
     .item-left{
         flex: 0 0 40px;
         margin-right: 15px;
@@ -99,21 +99,21 @@
             font-weight: 500;
             font-size: 14px;
             line-height: 24px;
-            color: #273041;
+            color: #fafbfc;
         }
         h3{
             font-weight: 500;
             font-size: 12px;
             line-height: 15px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
     .item-right p{
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
-        
+        color: #fafbfc;
+
     }
     .item-status{
         margin-top: 10px;
@@ -124,7 +124,7 @@
             font-weight: 500;
             font-size: 12px;
             line-height: 15px;
-            color: #596680;
+            color: #fafbfc;
             &:not(:first-child){
                 margin-left: 30px;
             }
@@ -203,7 +203,7 @@
         transform: translateY(-50%);
         display: flex;
         align-items: center;
-        
+
         .overlay-item{
             img{
                 width: 20px;
@@ -214,8 +214,8 @@
             }
         }
     }
-    
-    
+
+
     .overlay .overlay-item input{
         display: none;
     }

@@ -20,9 +20,9 @@
         fontSize: '14px',
         fontWeight: 400,
         position: 'bottom',
-        horizontalAlign: 'center', 
+        horizontalAlign: 'center',
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         }
     },
     chart: {
@@ -115,7 +115,7 @@ var options2 = {
         title: {
             text: '$ (thousands)',
             style: {
-                colors: ['#596680'],
+                colors: ['#fafbfc'],
                 fontSize: '14px',
                 fontWeight: 400,
             },
@@ -135,7 +135,7 @@ var options2 = {
         fontSize: '14px',
         fontWeight: 400,
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         }
     },
     tooltip: {
@@ -187,7 +187,7 @@ var options3 = {
         text: 'Page Statistics',
         align: 'left',
         style: {
-            colors: ['#596680'],
+            colors: ['#fafbfc'],
             fontFamily: 'Inter, sans-serif',
             fontSize: '14px',
             fontWeight: 400,
@@ -227,7 +227,7 @@ var options3 = {
         fontSize: '14px',
         fontWeight: 400,
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         }
     },
     tooltip: {
@@ -272,7 +272,7 @@ var options4 = {
         text: 'Average High & Low Temperature',
         align: 'left',
         style: {
-            colors: ['#596680'],
+            colors: ['#fafbfc'],
             fontFamily: 'Inter, sans-serif',
             fontSize: '14px',
             fontWeight: 400,
@@ -286,7 +286,7 @@ var options4 = {
         title: {
             text: 'Month',
             style: {
-                colors: ['#596680'],
+                colors: ['#fafbfc'],
                 fontSize: '14px',
                 fontWeight: 400,
             },
@@ -308,7 +308,7 @@ var options4 = {
         title: {
             text: 'Temperature',
             style: {
-                colors: ['#596680'],
+                colors: ['#fafbfc'],
                 fontFamily: 'Inter, sans-serif',
                 fontSize: '14px',
                 fontWeight: 400,
@@ -327,7 +327,7 @@ var options4 = {
         fontSize: '14px',
         fontWeight: 400,
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         }
     },
 };
@@ -344,7 +344,7 @@ var options5 = {
         type: 'bar',
         height: 330,
         style: {
-            colors: ['#596680'],
+            colors: ['#fafbfc'],
             fontSize: '14px',
             fontWeight: 400,
         },
@@ -365,7 +365,7 @@ var options5 = {
     xaxis: {
         categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
         'United States', 'China', 'Germany'],
-        
+
         labels: {
             style: {
                 fontFamily: 'Inter, sans-serif',
@@ -418,10 +418,10 @@ var options6 = {
             fontFamily: 'Inter, sans-serif',
             fontSize: '12px',
             fontWeight: 500,
-            colors: ['#596680']
+            colors: ['#fafbfc']
         },
     },
-    
+
     xaxis: {
         categories: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
         position: 'top',
@@ -468,7 +468,7 @@ var options6 = {
                 return val + "%";
             }
         }
-        
+
     },
     title: {
         text: 'Monthly Inflation in Argentina, 2002',
@@ -517,7 +517,7 @@ var options7 = {
             columnWidth: '50%'
         }
     },
-    
+
     fill: {
         opacity: [0.85, 0.25, 1],
         gradient: {
@@ -537,7 +537,7 @@ var options7 = {
     xaxis: {
         type: 'datetime',
         style: {
-            colors: ['#596680'],
+            colors: ['#fafbfc'],
             fontSize: '14px',
             fontWeight: 400,
         },
@@ -558,7 +558,7 @@ var options7 = {
         title: {
             text: 'Points',
             style: {
-                colors: ['#596680'],
+                colors: ['#fafbfc'],
                 fontSize: '14px',
                 fontWeight: 400,
             },
@@ -574,7 +574,7 @@ var options7 = {
                     return y.toFixed(0) + " points";
                 }
                 return y;
-                
+
             }
         }
     },
@@ -583,7 +583,7 @@ var options7 = {
         fontSize: '14px',
         fontWeight: 400,
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         }
     },
 };
@@ -641,7 +641,7 @@ var options9 = {
         fontSize: '14px',
         fontWeight: 400,
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         }
     },
 };
@@ -665,7 +665,7 @@ var options10 = {
         fontSize: '14px',
         fontWeight: 400,
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         }
     },
 };

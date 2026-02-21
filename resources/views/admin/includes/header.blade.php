@@ -8,7 +8,7 @@
                         <button class="sidebar-toggler">
                             <img src="{{asset('admin/images/icons/header/bars.svg')}}" alt="">
                         </button>
-                        <a href="{{route('admin.dashboard')}}" target="_blank" class="btn btn-primary text-white">{{__('Welcome Admin')}}</a>
+                        <a href="{{route('admin.dashboard')}}" target="_blank" class="btn btn-blue text-white">{{__('Welcome Admin')}}</a>
                     </div>
                     <div class="header__navbar__right">
                         <ul class="header__menu">

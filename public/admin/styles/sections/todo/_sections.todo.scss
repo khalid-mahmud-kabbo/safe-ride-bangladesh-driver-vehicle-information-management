@@ -15,7 +15,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
-        color: #273041;
+        color: #fafbfc;
     }
 }
 
@@ -32,7 +32,7 @@
             font-weight: normal;
             font-size: 14px;
             line-height: 24px;
-            color: #596680;
+            color: #fafbfc;
         }
         &:hover,
         &.active{
@@ -60,7 +60,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-        color: #596680;
+        color: #fafbfc;
         display: flex;
         align-items: center;
         img{
@@ -98,7 +98,7 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 17px;
-            color: #596680;
+            color: #fafbfc;
         }
         .overlay{
             position: absolute;
@@ -152,7 +152,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
         display: flex;
         align-items: center;
         img{
@@ -182,22 +182,22 @@
             font-weight: 500;
             font-size: 16px;
             line-height: 24px;
-            color: #273041;
+            color: #fafbfc;
         }
         h3{
             margin-bottom: 8px;
             font-weight: 500;
             font-size: 12px;
             line-height: 15px;
-            color: #596680;
+            color: #fafbfc;
         }
         p{
             margin-bottom: 0;
             font-weight: 400;
             font-size: 14px;
             line-height: 24px;
-            
-            color: #596680;
+
+            color: #fafbfc;
         }
     }
     @include breakpoint(480px){
@@ -211,8 +211,8 @@
 
 .todo__item.active{
     .item-text{
-        h2, 
-        h3, 
+        h2,
+        h3,
         p{
             text-decoration: line-through;
         }
@@ -239,14 +239,14 @@
             font-weight: 600;
             font-size: 16px;
             line-height: 24px;
-            color: #273041;
+            color: #fafbfc;
         }
         p{
             margin-bottom: 0;
             font-weight: 400;
             font-size: 14px;
             line-height: 24px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
     .modal-footer{

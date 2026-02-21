@@ -54,12 +54,12 @@
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
-    }   
+    }
     img{
         margin-left: 20px;
         width: 29px;
         height: 19px;
-    } 
+    }
 }
 
 //recent patient style
@@ -71,7 +71,7 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
 }
 
@@ -107,7 +107,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-    color: #273041;
+    color: #fafbfc;
     &.color-purple{color: #BE63F9;}
     &.color-yellow{color: #FF9F38;}
     &.color-green{color: #4CBF4C;}
@@ -220,7 +220,7 @@
     tbody td{
         padding: 16px 10px 16px;
         border-bottom: 1px solid #ECEDF0;
-        
+
         &:nth-child(1){
             min-width: 170px;
             padding-left: 0;
@@ -254,7 +254,7 @@
             font-weight: 500;
             font-size: 14px;
             line-height: 24px;
-            color: #273041;
+            color: #fafbfc;
         }
         h3{
             font-weight: 400;

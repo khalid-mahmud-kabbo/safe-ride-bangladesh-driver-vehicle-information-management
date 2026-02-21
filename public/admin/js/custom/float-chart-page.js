@@ -117,12 +117,12 @@ var options11 = {
             lines: {
                 show: true
             }
-        },   
+        },
         yaxis: {
             lines: {
                 show: true
             },
-        }, 
+        },
     },
     legend: {
         position: 'top',
@@ -130,7 +130,7 @@ var options11 = {
         fontSize: '14px',
         fontWeight: 400,
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         },
         markers: {
             width: 10,
@@ -159,7 +159,7 @@ var options9 = {
         fontSize: '14px',
         fontWeight: 400,
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         },
         markers: {
             width: 10,
@@ -199,7 +199,7 @@ var options10 = {
         fontSize: '14px',
         fontWeight: 400,
         labels: {
-            colors: ['#596680']
+            colors: ['#fafbfc']
         },
         markers: {
             width: 10,

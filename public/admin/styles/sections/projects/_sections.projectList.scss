@@ -11,7 +11,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
-        color: #273041;
+        color: #fafbfc;
     }
     tbody td{
         padding: 16px 20px;
@@ -39,7 +39,7 @@
             font-weight: 600;
             font-size: 14px;
             line-height: 24px;
-            color: #596680;
+            color: #fafbfc;
         }
         p{
             text-transform: capitalize;
@@ -55,7 +55,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-        color: #596680;
+        color: #fafbfc;
     }
 }
 
@@ -111,7 +111,7 @@
             font-weight: 400;
             font-size: 12px;
             line-height: 20px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
 }
@@ -126,7 +126,7 @@
         background-color: #FF9F38;
         border-radius: 15px;
     }
-    
+
     .progress.bg-yellow{
         background: #EBEDF0;
         border-radius: 15px;
@@ -135,19 +135,19 @@
             border-radius: 15px;
         }
     }
-    
+
     .progress.bg-red{
         .progress-bar{
             background-color: #FF6628;
         }
     }
-    
+
     .progress.bg-green{
         .progress-bar{
             background-color: #4CBF4C;
         }
     }
-    
+
     .progress.bg-purple{
         .progress-bar{
             background-color: #BE63F9;

@@ -11,7 +11,7 @@
     transition: 0.3s;
     &:focus{
         box-shadow: none;
-    } 
+    }
     span{
         margin-left: 10px;
     }
@@ -50,11 +50,11 @@
     }
     &.btn-grey{
         background: #EBEDF0;
-        color: #596680;
+        color: #fafbfc;
         transition: 0.3s;
         &:hover{
             background-color: #b4bac4;
-            color: #596680;
+            color: #fafbfc;
         }
     }
     &.btn-reply{
@@ -116,7 +116,7 @@
             color: $white;
         }
     }
-    
+
     &.btn-cart{
         background: #FFFFFF;
         border: 1px solid $primaryColor1;
@@ -261,10 +261,10 @@
     }
     &.btn-outline-light{
         border: 1px solid #EBEDF0;
-        color: #273041;
+        color: #fafbfc;
         &:hover{
             background-color: #EBEDF0;
-            color: #273041;
+            color: #fafbfc;
         }
     }
 }

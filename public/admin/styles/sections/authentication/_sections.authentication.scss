@@ -36,13 +36,13 @@
         font-weight: 600;
         font-size: 32px;
         line-height: 40px;
-        color: #273041;
+        color: #fafbfc;
     }
     h3{
         font-weight: 500;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
         a{
             text-transform: capitalize;
             color: #5991FF;
@@ -56,8 +56,8 @@
         .overlay{
             position: absolute;
             top: 50%;
-            left: 14px; 
-            transform: translateY(-50%);   
+            left: 14px;
+            transform: translateY(-50%);
             img{
                 width: 20px;
                 height: 20px;
@@ -66,8 +66,8 @@
         .password-visibility{
             position: absolute;
             top: 50%;
-            right: 14px; 
-            transform: translateY(-50%);   
+            right: 14px;
+            transform: translateY(-50%);
             cursor: pointer;
             &.show::before{
                 opacity: 1;
@@ -91,15 +91,15 @@
             }
         }
     }
-    
+
     label{
         margin-bottom: 11px;
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
-        color: #273041;
+        color: #fafbfc;
     }
-    
+
     input{
         padding: 13px 13px 13px 49px;
         width: 100%;
@@ -121,7 +121,7 @@
     .continue-text{
         display: block;
         position: relative;
-        
+
         &::before{
             position: absolute;
             content: "";
@@ -144,7 +144,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
     }
 }
 
@@ -169,7 +169,7 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 24px;
-            color: #596680;
+            color: #fafbfc;
         }
         input{
             margin-right: 12px;

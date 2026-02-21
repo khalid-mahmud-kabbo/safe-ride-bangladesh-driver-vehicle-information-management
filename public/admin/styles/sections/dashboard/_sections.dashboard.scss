@@ -11,7 +11,7 @@
         top: 20px;
         right: 20px;
     }
-    
+
     &__text{
         h2{
             margin-bottom: 2px;
@@ -25,7 +25,7 @@
             text-transform: capitalize;
             font-size: 16px;
             line-height: 28px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
 }
@@ -48,13 +48,13 @@
     border-radius: 6px;
     padding: 8px 0;
     inset: 0px 0px auto auto !important;
-    
+
     .dropdown-item{
         font-weight: 400;
         padding: 5px 16px;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
     }
 }
 
@@ -83,7 +83,7 @@
         font-weight: 500;
         font-size: 13px;
         line-height: 16px;
-        color: #596680;
+        color: #fafbfc;
         &.active{
             background: #E5EDFE;
             border-radius: 4px;
@@ -106,7 +106,7 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
         span{
             color: #5991FF;
         }
@@ -127,7 +127,7 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
 }
 
@@ -176,13 +176,13 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
     }
     h2{
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
 }
 
@@ -197,7 +197,7 @@
             font-weight: 500;
             font-size: 12px;
             line-height: 15px;
-            color: #596680;
+            color: #fafbfc;
         }
         h2{
             font-weight: 500;
@@ -219,7 +219,7 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
 }
 
@@ -235,9 +235,9 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
-    
+
     tbody td{
         padding-top: 16px;
         padding-left: 14px;
@@ -245,7 +245,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
         &:nth-child(1){min-width: 200px;}
         &:nth-child(2){min-width: 120px;}
         &:nth-child(3){min-width: 120px;}

@@ -30,7 +30,7 @@ var incomeStatisticsDailyOptions = {
         },
         offsetY: -20,
         style: {
-            colors: ["#596680"],
+            colors: ["#fafbfc"],
             fontSize: '12px',
             fontWeight: 400
         },
@@ -99,7 +99,7 @@ var incomeStatisticsMonthOptions = {
         },
         offsetY: -20,
         style: {
-            colors: ["#596680"],
+            colors: ["#fafbfc"],
             fontSize: '12px',
             fontWeight: 400
         },
@@ -168,7 +168,7 @@ var incomeStatisticsOptions = {
         },
         offsetY: -20,
         style: {
-            colors: ["#596680"],
+            colors: ["#fafbfc"],
             fontSize: '12px',
             fontWeight: 400
         },

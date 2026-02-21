@@ -27,7 +27,7 @@
             <div class="customers__area bg-style mb-30">
                 <div class="item-title">
                     <div class="col-xs-6">
-                        <a href="{{route('admin.create_admin')}}" class="btn btn-md btn-info">{{ __('Add Admin')}}</a>
+                        <a href="{{route('admin.create_admin')}}" class="btn btn-md btn-blue">{{ __('Add Admin')}}</a>
                     </div>
                 </div>
                 <div class="customers__table">

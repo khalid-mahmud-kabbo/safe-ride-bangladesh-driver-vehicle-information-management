@@ -21,14 +21,14 @@
         font-weight: 600;
         font-size: 24px;
         line-height: 32px;
-        color: #273041;
+        color: #fafbfc;
     }
     p{
         margin-bottom: 0;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
     }
 }
 
@@ -46,7 +46,7 @@
         font-weight: 600;
         font-size: 18px;
         line-height: 24px;
-        color: #273041;        
+        color: #fafbfc;
     }
 }
 
@@ -57,7 +57,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    color: #273041;
+    color: #fafbfc;
     &:not(:first-child){
         margin-top: 10px;
     }
@@ -72,7 +72,7 @@
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;
-        color: #273041;
+        color: #fafbfc;
         &:not(.collapsed){
             color:#5991FF;
             box-shadow: none;
@@ -83,6 +83,6 @@
         }
     }
     .accordion-body{
-            border-top: 1px solid #E7E8EB; 
+            border-top: 1px solid #E7E8EB;
     }
 }

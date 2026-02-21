@@ -39,7 +39,7 @@
             font-weight: 600;
             font-size: 18px;
             line-height: 24px;
-            color: #273041
+            color: #fafbfc
         }
     }
 }
@@ -62,7 +62,7 @@
         font-weight: 600;
         font-size: 14px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
     &.blog__sidebar__post{
         h2{
@@ -82,7 +82,7 @@
     display: flex;
     flex-direction: column;
     li{
-        margin-bottom: 18px;  
+        margin-bottom: 18px;
         &:last-child{
             margin-bottom: 0;
         }
@@ -96,7 +96,7 @@
             font-weight: 400;
             font-size: 14px;
             line-height: 17px;
-            color: #596680;
+            color: #fafbfc;
         }
         .list-data{
             font-weight: 600;
@@ -146,7 +146,7 @@
         font-weight: 600;
         font-size: 15px;
         line-height: 18px;
-        color: #273041;
+        color: #fafbfc;
         margin-bottom: 7px;
     }
     h3{
@@ -154,7 +154,7 @@
         font-weight: 400;
         font-size: 12px;
         line-height: 15px;
-        color: #596680;
+        color: #fafbfc;
     }
     p{
         margin-bottom: 0;
@@ -227,21 +227,21 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 24px;
-    color: #273041;
+    color: #fafbfc;
     margin-bottom: 2px;
 }
 .post-desc{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #596680;
+    color: #fafbfc;
     margin-bottom: 10px;
 }
 .post-date{
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
-    color: #596680;
+    color: #fafbfc;
 }
 
 .post-link{

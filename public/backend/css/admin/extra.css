@@ -16,11 +16,83 @@
     opacity: .65;
 }
 
+
+th,td{
+    text-align: left;
+}
+
+.mm-show{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+
+
+
+
+.btn {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn .spinner {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 18px;
+    height: 18px;
+    margin: -9px 0 0 -9px;
+    border: 2px solid #fff;
+    border-top: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+.btn.btn-loading {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+
+
+
 .slider-page-form .tab-pane.fade {
     display: none;
 }
 .slider-page-form .tab-pane.fade.active {
     display: block;
+}
+
+.input__group input{
+    background-color: #001831;
+}
+
+th, td, select, .dataTables_filter input{
+    background-color: #001831 !important;
+}
+
+.modal-content, .dropdown-menu{
+    background-color: #001831 !important;
+}
+
+
+.offer-track-url{
+    word-wrap: break-word;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #062f5b !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, div, span, a{
+    color: #ffff !important;
 }
 
 /* Extra CSS Start Start*/
@@ -140,7 +212,7 @@ footer.sticky-footer {
 
 .screen{
     width: 100%;
-    padding-top: 100%; 
+    padding-top: 100%;
     margin: auto;
     background-size: 100% auto;
     cursor: pointer;
@@ -163,3 +235,61 @@ footer.sticky-footer {
     }
 }
 /* Home Varient Change CSS End */
+
+
+
+
+.link-box{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.5 all ease-in-out;
+    margin-bottom: 1rem;
+}
+
+.link-box:hover {
+    background-color: #000;
+    border-color: #fff;
+}
+
+
+.link-box:active{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.5 all ease-in-out;
+    margin-bottom: 1rem;
+    background-color: #000;
+    border-color: #fff;
+}
+
+
+.link-box:focus{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.5 all ease-in-out;
+    margin-bottom: 1rem;
+    background-color: #000;
+    border-color: #fff;
+}
+
+
+
+.details p{
+    margin-bottom: 0;
+    font-size: small;
+    font-weight: 300;
+}

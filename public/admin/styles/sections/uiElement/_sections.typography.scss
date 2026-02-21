@@ -10,7 +10,7 @@
             font-weight: 600;
             font-size: 18px;
             line-height: 24px;
-            color: #273041;
+            color: #fafbfc;
         }
     }
 }
@@ -18,7 +18,7 @@
 .typography__area .item-content .heading-title.display{
     h1,h2,h3,h4,h5,h6{
         font-weight: 400;
-        color: #273041;
+        color: #fafbfc;
         margin-bottom: 20px;
     }
     h1{
@@ -69,14 +69,14 @@
         h6{
             font-size: 20px;
             line-height: 30px;
-        } 
+        }
     }
 }
 
 .typography__area .item-content .heading-title{
     h1,h2,h3,h4,h5,h6{
         font-weight: 600;
-        color: #273041;
+        color: #fafbfc;
         margin-bottom: 20px;
     }
     h1{
@@ -137,7 +137,7 @@
         font-weight: 600;
         font-size: 16px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
     p{
         &:not(:first-child){
@@ -147,10 +147,10 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-        color: #596680;
+        color: #fafbfc;
         mark{
             background-color: #FFF9ED;
-            color: #596680;
+            color: #fafbfc;
         }
         small{
             font-weight: 400;
@@ -182,7 +182,7 @@
         font-weight: normal;
         font-size: 14px;
         line-height: 17px;
-        color: #596680;
+        color: #fafbfc;
         &:not(:first-child){
             margin-top: 20px;
         }
@@ -246,19 +246,19 @@
         font-weight: 600;
         font-size: 48px;
         line-height: 50px;
-        color: #273041;
+        color: #fafbfc;
     }
     h3{
         font-weight: 400;
         font-size: 12px;
         line-height: 20px;
-        color: #273041;
+        color: #fafbfc;
     }
     h4{
         font-weight: 600;
         font-size: 18px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
     &.thin{
         h2,h4{font-weight: 100;}
@@ -295,7 +295,7 @@ blockquote{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    color: #596680;
+    color: #fafbfc;
     display: flex;
     flex-direction: column;
     position: relative;

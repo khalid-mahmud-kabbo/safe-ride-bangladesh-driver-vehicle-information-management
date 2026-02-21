@@ -1,11 +1,11 @@
 .checkout__area{
     padding: 20px 25px;
     margin-bottom: 30px;
-    
+
     .tab-content{
         margin-top: 30px;
     }
-    
+
     .nav.nav-tabs{
         display: flex;
         justify-content: space-between;
@@ -29,7 +29,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
-        color: #596680;
+        color: #fafbfc;
     }
     &.active{
         color: #5991FF;
@@ -41,7 +41,7 @@
             filter: invert(49%) sepia(93%) saturate(2125%) hue-rotate(202deg) brightness(104%) contrast(101%);
         }
     }
-    
+
     @include breakpoint(575px){
         padding: 10px !important;
         display: flex;
@@ -63,7 +63,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 17px;
-        color: #273041;
+        color: #fafbfc;
     }
     input,
     textarea{
@@ -75,7 +75,7 @@
         font-weight: normal;
         font-size: 14px;
         line-height: 17px;
-        color: #596680;
+        color: #fafbfc;
     }
     textarea{
         resize: none;
@@ -108,7 +108,7 @@
         font-weight: 500;
         font-size: 18px;
         line-height: 22px;
-        color: #273041;
+        color: #fafbfc;
     }
 }
 
@@ -120,7 +120,7 @@
         &:not(:first-child)
         {
             margin-top: 18px;
-        }    
+        }
     }
     .list-item{
         display: flex;
@@ -143,7 +143,7 @@
                 font-weight: 500;
                 font-size: 15px;
                 line-height: 18px;
-                color: #273041;
+                color: #fafbfc;
                 margin-bottom: 7px;
             }
             p{
@@ -151,7 +151,7 @@
                 font-weight: 400;
                 font-size: 14px;
                 line-height: 17px;
-                color: #596680;
+                color: #fafbfc;
             }
         }
     }
@@ -159,7 +159,7 @@
         font-weight: normal;
         font-size: 14px;
         line-height: 17px;
-        color: #596680;
+        color: #fafbfc;
     }
 }
 
@@ -171,7 +171,7 @@
             font-weight: 500;
             font-size: 16px;
             line-height: 19px;
-            color: #273041;
+            color: #fafbfc;
         }
     }
     .address__item{
@@ -214,7 +214,7 @@
         font-weight: 400;
         font-size: 15px;
         line-height: 18px;
-        color: #273041;
+        color: #fafbfc;
     }
     .address__input{
         label{
@@ -223,14 +223,14 @@
             font-weight: 500;
             font-size: 15px;
             line-height: 18px;
-            color: #273041;
+            color: #fafbfc;
         }
         p{
             margin: 10px 0 0 28px;
             font-weight: 400;
             font-size: 14px;
             line-height: 17px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
 }
@@ -251,14 +251,14 @@
             font-weight: 500;
             font-size: 14px;
             line-height: 17px;
-            color: #596680;
+            color: #fafbfc;
         }
         h3{
             word-wrap: anywhere;
             font-weight: 400;
             font-size: 14px;
             line-height: 22px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
 }
@@ -278,7 +278,7 @@
             text-align: right;
             font-size: 14px;
             line-height: 17px;
-            color: #596680;
+            color: #fafbfc;
         }
         h2{
             text-transform: capitalize;

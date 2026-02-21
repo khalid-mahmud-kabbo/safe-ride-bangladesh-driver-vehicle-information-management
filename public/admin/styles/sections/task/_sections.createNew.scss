@@ -6,7 +6,7 @@
 .search-member-list{
     position: absolute;
     top: 70px;
-    left: 0; 
+    left: 0;
     width: 100%;
     background: $white;
     border: 1px solid #EBEDF0;
@@ -18,13 +18,13 @@
     visibility: hidden;
     transition: 0.3s;
     transform: translateY(5px);
-    
+
     &.active{
         opacity: 1;
         visibility: visible;
         transform: translateY(0px);
     }
-    
+
     .list-item{
         display: flex;
         align-items: center;
@@ -47,10 +47,10 @@
             font-weight: 500;
             font-size: 14px;
             line-height: 24px;
-            color: #273041;
+            color: #fafbfc;
         }
     }
-    
+
     @include breakpoint(480px){
         padding: 15px 10px;
         .user-info{

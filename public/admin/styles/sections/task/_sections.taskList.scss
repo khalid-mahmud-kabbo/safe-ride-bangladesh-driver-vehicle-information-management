@@ -12,7 +12,7 @@
         font-weight: 600;
         font-size: 20px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
 }
 
@@ -40,7 +40,7 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
         span{
             margin-left: 10px;
         }
@@ -69,7 +69,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 24px;
-        color: #596680;
+        color: #fafbfc;
     }
     .user-img img{
         width: 36px;
@@ -88,7 +88,7 @@
             font-weight: 400;
             font-size: 12px;
             line-height: 20px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
 }
@@ -104,15 +104,15 @@
         line-height: 15px;
         color: $white;
     }
-    
+
     .status.bg-red{
         background-color: #FF6628;
     }
-    
+
     .status.bg-green{
         background-color: #4CBF4C;
     }
-    
+
     .status.bg-yellow{
         background-color: #FF9F38;
     }
@@ -134,7 +134,7 @@
             font-weight: 600;
             font-size: 20px;
             line-height: 24px;
-            color: #273041;
+            color: #fafbfc;
         }
     }
 }
@@ -150,7 +150,7 @@
         font-weight: 600;
         font-size: 20px;
         line-height: 24px;
-        color: #273041;
+        color: #fafbfc;
     }
 }
 
@@ -166,7 +166,7 @@
         border-bottom: 1px solid #ECEDF0;
         &:nth-child(1){min-width: 60px;}
     }
-    
+
     .user-img{
         img{
             width: 40px;
@@ -174,7 +174,7 @@
             border-radius: 50%;
         }
     }
-    
+
     .comment-info{
         display: flex;
         flex-direction: column;
@@ -188,20 +188,20 @@
             font-weight: 500;
             font-size: 14px;
             line-height: 24px;
-            color: #273041;
+            color: #fafbfc;
         }
         h3{
             font-weight: 500;
             font-size: 12px;
             line-height: 15px;
-            color: #596680;
+            color: #fafbfc;
         }
         p{
             margin-bottom: 0;
             font-weight: 400;
             font-size: 14px;
             line-height: 17px;
-            color: #596680;
+            color: #fafbfc;
         }
     }
 }
