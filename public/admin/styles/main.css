@@ -821,11 +821,11 @@ table.dataTable thead th, table.dataTable thead td, .table-style tbody td {
 
 .sidebar__brand {
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 .sidebar__brand img{
-  width: 90%;
+  width: 80%;
   border-bottom: 2px solid #000;
 }
 
