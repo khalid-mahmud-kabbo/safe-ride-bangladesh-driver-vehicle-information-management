@@ -41,11 +41,11 @@ public function index(Request $request)
             ->addColumn('action', function ($data) {
                 $btn = '<div class="action__buttons">';
                 
-                $btn .= '<a href="' . route('admin.vehicle-and-drivers.details', $data->id) . '" class="btn-action" target="_blank">
+                $btn .= '<a href="' . route('admin.vehicle-and-drivers.details', $data->id) . '" class="btn-action">
                             <i class="fa-solid fa-eye"></i>
                         </a>';
                 
-                $btn .= '<a href="' . route('admin.vehicle-and-drivers.qrcode', $data->id) . '" class="btn-action" target="_blank">
+                $btn .= '<a href="' . route('admin.vehicle-and-drivers.qrcode', $data->id) . '" class="btn-action">
                             <i class="fa-solid fa-qrcode"></i>
                         </a>';
 

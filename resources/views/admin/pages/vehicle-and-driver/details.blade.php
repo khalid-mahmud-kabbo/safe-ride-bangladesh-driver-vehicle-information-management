@@ -24,8 +24,13 @@
         <div class="col-md-12">
             <div class="gallery__area bg-style">
                 <div class="gallery__content">
+                    <div class="d-flex gap-3">
+                                <a href="{{route('admin.vehicle-and-drivers.qrcode', $detail->id)}}" class="btn btn-blue text-white next-tab">Print QR Code</a>
+                                <a href="{{route('admin.vehicle-and-drivers.edit', $detail->id)}}" class="btn btn-success text-white next-tab">Edit Details</a>
+                            </div>
                     <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-one" role="tabpanel" aria-labelledby="nav-one-tab">
+                            
                             <div class="row">
                                 <div class="col-md-12">
                                             <div class="row">
