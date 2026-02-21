@@ -168,7 +168,7 @@ img {
 }
 
 .main-content {
-  margin-left: 280px;
+  margin-left: 300px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -738,7 +738,7 @@ table.dataTable thead th, table.dataTable thead td, .table-style tbody td {
   z-index: 9999;
   top: 0;
   left: 0;
-  width: 280px;
+  width: 300px;
   height: 100vh;
   background-color: #112242;
   -webkit-transition: 0.4s;
