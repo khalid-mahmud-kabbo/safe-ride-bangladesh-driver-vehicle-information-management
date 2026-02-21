@@ -113,7 +113,7 @@
 
                         <div class="col-md-6 mb-3">    
                         <div class="input__group mb-25">
-                            <label for="exampleInputEmail1">{{ __('Driving License Image(Front)') }} <span class="text-danger">*</span></label>
+                            <label for="exampleInputEmail1">{{ __('Driving License Image (Front)') }} <span class="text-danger">*</span></label>
                                 <input type="file" class="form-control putImage2" id="front_license_image" name="front_license_image">
                                 <img src="" id="target2"/>
                         </div>
@@ -121,7 +121,7 @@
 
                         <div class="col-md-6 mb-3">    
                         <div class="input__group mb-25">
-                            <label for="exampleInputEmail1">{{ __('Driving License Image(Back)') }} <span class="text-danger">*</span></label>
+                            <label for="exampleInputEmail1">{{ __('Driving License Image (Back)') }} <span class="text-danger">*</span></label>
                                 <input type="file" class="form-control putImage3" id="back_license_image" name="back_license_image">
                                 <img src="" id="target3"/>
                         </div>
@@ -258,6 +258,7 @@
                         <button type="button" class="btn btn-secondary text-white prev-tab">Previous</button>
                         <button type="submit" class="btn btn-success text-white">Submit</button>
                     </div>
+                </div>
                 </div>
 
 

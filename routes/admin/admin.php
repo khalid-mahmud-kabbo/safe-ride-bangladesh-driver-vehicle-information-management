@@ -65,6 +65,7 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth', 'is_admin', 'en.loca
         Route::post('/store-vehicle-and-driver', [VehicleAndDriverController::class, 'store'])->name('vehicle-and-drivers.store')->middleware(['role:Super Admin', 'isDemo']);
         Route::get('/edit-vehicle-and-driver/{id}', [VehicleAndDriverController::class, 'edit'])->name('vehicle-and-drivers.edit')->middleware(['role:Super Admin']);
         Route::post('/update-vehicle-and-driver/{id}', [VehicleAndDriverController::class, 'update'])->name('vehicle-and-drivers.update')->middleware(['role:Super Admin', 'isDemo']);
+        Route::get('/view/{id}', [VehicleAndDriverController::class, 'details'])->name('vehicle-and-drivers.details')->middleware(['role:Super Admin', 'isDemo']);
         Route::get('/delete-vehicle-and-driver/{id}', [VehicleAndDriverController::class, 'delete'])->name('vehicle-and-drivers.delete')->middleware(['role:Super Admin', 'isDemo']);
         Route::get('/vehicle-and-drivers/qrcode/{id}', [VehicleAndDriverController::class, 'generateQrCode'])->name('vehicle-and-drivers.qrcode')->middleware(['role:Super Admin', 'isDemo']);
 

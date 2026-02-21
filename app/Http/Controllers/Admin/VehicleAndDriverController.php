@@ -41,6 +41,10 @@ public function index(Request $request)
             ->addColumn('action', function ($data) {
                 $btn = '<div class="action__buttons">';
                 
+                $btn .= '<a href="' . route('admin.vehicle-and-drivers.details', $data->id) . '" class="btn-action" target="_blank">
+                            <i class="fa-solid fa-eye"></i>
+                        </a>';
+                
                 $btn .= '<a href="' . route('admin.vehicle-and-drivers.qrcode', $data->id) . '" class="btn-action" target="_blank">
                             <i class="fa-solid fa-qrcode"></i>
                         </a>';
@@ -121,7 +125,7 @@ $tax_token_image = $request->hasFile('tax_token_image') ? fileUpload($request->t
     if ($details) {
         return redirect()
             ->route('admin.vehicle-and-drivers.index')
-            ->with('success', __('Vehicle & Driver Info Successfully Created!'));
+            ->with('success', __('Info Successfully Stored!'));
     }
 
     return redirect()->back()->with('error', __('Something went wrong!'));
@@ -220,9 +224,7 @@ public function update(Request $request)
         'issuing_date' => $request->issuing_date
     ]);
 
-    return redirect()
-        ->route('admin.vehicle-and-drivers.index')
-        ->with('success', __('Vehicle & Driver Info Successfully Updated!'));
+    return redirect()->route('admin.vehicle-and-drivers.index')->with('success', __('Info Successfully Updated!'));
 }
 
 
@@ -233,7 +235,7 @@ public function generateQrCode($id)
 
     $content = "
 ==============================
-        VEHICLE & DRIVER INFO
+VEHICLE & DRIVER INFO
 ==============================
 
 Name: {$vehicle->name}
@@ -268,11 +270,24 @@ Thanks.
 ==============================
 ";
 
-    $qrSvg = QrCode::size(500)->generate($content);
+    $qrSvg = QrCode::size(1000)->errorCorrection('L')->margin(2)->generate($content);
 
     return view('admin.pages.vehicle-and-driver.qrcode-print', compact('qrSvg'));
 }
 
+
+
+
+    public function details($id)
+    {
+        $detail = VehicleAndDriver::where('id', $id)->first();
+        $title = __('Vehicle And Driver Information Details');
+        return view('admin.pages.vehicle-and-driver.details', compact('detail', 'title'));
+    }
+
+
+
+    
 
         public function delete($id)
     {
@@ -280,7 +295,7 @@ Thanks.
         $delete = VehicleAndDriver::Where('id', $id);
         if ($delete) {
             $delete->delete();
-            return redirect()->route('admin.vehicle-and-drivers.index')->with('success', __('Successfully Deleted !'));
+            return redirect()->route('admin.vehicle-and-drivers.index')->with('success', __('Info Successfully Deleted !'));
         }
         return redirect()->route('admin.vehicle-and-drivers.index')->with('error', __('Does Not Delete!'));
     }
